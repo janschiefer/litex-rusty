@@ -100,7 +100,7 @@ fn main() -> ! {
 
     let mut delay = TIMER {
         registers: peripherals.TIMER0,
-        sys_clk: 50_000_000,
+        sys_clk: 40_000_000,
     };
 
     loop {
