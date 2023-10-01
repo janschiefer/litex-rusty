@@ -1,0 +1,30 @@
+2023.10.02 00:05:43 INFO  Started: Metals version 1.0.1 in folders '/home/jschiefer/Code/litex-rusty' for client Visual Studio Code 1.82.2.
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMATION: Flyway Community Edition 9.21.2 by Redgate
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMATION: See release notes here: https://rd.gt/416ObMi
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMATION: 
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.FlywayExecutor execute
+INFORMATION: Database: jdbc:h2:file:/home/jschiefer/Code/litex-rusty/.metals/metals (H2 2.1)
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMATION: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.command.DbValidate validate
+INFORMATION: Successfully validated 4 migrations (execution time 00:00.009s)
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMATION: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMATION: Current version of schema "PUBLIC": << Empty Schema >>
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMATION: Migrating schema "PUBLIC" to version "1 - Create tables"
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMATION: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMATION: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMATION: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Okt. 02, 2023 12:05:43 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMATION: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.012s)
+2023.10.02 00:05:43 INFO  time: initialize in 0.38s
+2023.10.02 00:05:44 WARN  Build server is not auto-connectable.
+2023.10.02 00:05:44 WARN  no build tool detected in workspace '/home/jschiefer/Code/litex-rusty'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

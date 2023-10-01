@@ -1,0 +1,15 @@
+[package]
+name = "litex-rusty-app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+riscv = { version = "0.10.0", features = ["critical-section-single-hart"] }
+riscv-rt = {git = "https://github.com/rust-embedded/riscv-rt.git"}
+litex-pac = { path = "../litex-pac", features = ["rt", "critical-section"]}
+litex-hal = { git = "https://github.com/pepijndevos/rust-litex-hal", branch = "master"}
+panic-halt = "0"
+embedded-hal = {version = "0", features = ["unproven"]}
+nb = "1.0.0"
