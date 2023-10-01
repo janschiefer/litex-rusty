@@ -12,4 +12,3 @@ litex-pac = { path = "../litex-pac", features = ["rt", "critical-section"]}
 litex-hal = { git = "https://github.com/pepijndevos/rust-litex-hal", branch = "master"}
 panic-halt = "0"
 embedded-hal = {version = "0", features = ["unproven"]}
-nb = "1.0.0"

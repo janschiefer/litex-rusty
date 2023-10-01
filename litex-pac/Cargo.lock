@@ -40,15 +40,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
-name = "litex-hal"
-version = "0.3.0"
-source = "git+https://github.com/pepijndevos/rust-litex-hal?branch=master#ef3b65dc0a4efeb3e38b23a537d482892f073a10"
-dependencies = [
- "embedded-hal",
- "nb 1.1.0",
-]
-
-[[package]]
 name = "litex-pac"
 version = "0.1.0"
 dependencies = [
@@ -56,18 +47,6 @@ dependencies = [
  "riscv",
  "riscv-rt",
  "vcell",
-]
-
-[[package]]
-name = "litex-rusty-app"
-version = "0.1.0"
-dependencies = [
- "embedded-hal",
- "litex-hal",
- "litex-pac",
- "panic-halt",
- "riscv",
- "riscv-rt",
 ]
 
 [[package]]
@@ -90,12 +69,6 @@ name = "nb"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8d5439c4ad607c3c23abf66de8c8bf57ba8adcd1f129e699851a6e43935d339d"
-
-[[package]]
-name = "panic-halt"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "de96540e0ebde571dc55c73d60ef407c653844e6f9a1e2fdbd40c07b9252d812"
 
 [[package]]
 name = "proc-macro2"
