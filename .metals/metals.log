@@ -30,3 +30,6 @@ INFORMATION: Successfully applied 4 migrations to schema "PUBLIC", now at versio
 2023.10.02 00:05:44 WARN  no build tool detected in workspace '/home/jschiefer/Code/litex-rusty'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 Okt. 02, 2023 12:31:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFORMATION: Unsupported notification method: $/setTrace
+2023.10.02 01:41:00 INFO  Shutting down server
+2023.10.02 01:41:00 INFO  shutting down Metals
+2023.10.02 01:41:00 INFO  Exiting server
